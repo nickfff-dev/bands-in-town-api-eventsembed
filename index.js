@@ -1,28 +1,30 @@
 
 
 
-fetch("https://rest.bandsintown.com/artists/lilwayne/events/?app_id=2b86392a65721cdf3698bf18d6bfba28")
+fetch("https://rest.bandsintown.com/artists/dababy/events/?app_id=")
     .then(function (response) {
         return response.json()
     
     }).then(function (json) {
-        console.log(json)
+      console.log(json)
+      var bandNameelm = document.querySelector(".bandName")
+      bandNameelm.innerHTML = json[0].lineup[0]
         
         var events = json
         var eventsModal = document.querySelector(".view-content")
 
         for (var i = 0; i < events.length; i++) {
           var event = events[i]
-          var name = event.artist["name"]
+          
+          var venue = event.venue.name
           
             var day = event.datetime.slice(8, 10)
             var month = event.datetime.slice(5, 7)
             var city = event.venue.city
             var country = event.venue.country
-            var name = event.venue.name
+            
             var ticketurl = event.offers[0].url
-          var eventDiv = ` <h1>${name}</h1>
-            <div class="ds-3col-equal node node--event views-row views-row-17 views-row-odd view-mode-summary  node--summary node--event--summary clearfix bolero-analytics-processed">
+          var eventDiv = `<div class="ds-3col-equal node node--event views-row views-row-17 views-row-odd view-mode-summary  node--summary node--event--summary clearfix bolero-analytics-processed">
 
             <div class="group-left ds-region ">
               <div class="field field--name-asf-events-small-date field--type-ds field--label-hidden stacked">
@@ -40,7 +42,7 @@ fetch("https://rest.bandsintown.com/artists/lilwayne/events/?app_id=2b86392a6572
               </div>
               <div class="field field--name-asf-events-venue-title field--type-ds field--label-hidden ">
                 <div class="field__items">
-                  <div class="field__item"><a class="customer">${name}</a></div>
+                  <div class="field__item"><a class="customer">${venue}</a></div>
                 </div>
               </div>
               <div class="field field--name-asf-events-tickets field--type-ds field--label-hidden">
