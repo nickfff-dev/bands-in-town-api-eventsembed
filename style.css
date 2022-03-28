@@ -1,0 +1,409 @@
+/*! CSS Used from: https://www.imaginedragonsmusic.com/sites/g/files/aaj14031/f/css/css_I7_ydWziIGQzIpIiZViVdzVRJUiejVeb0-v9-nmE7AI.css ; media=all */
+body{
+    margin-left: 100px;
+}
+
+
+
+    .clearfix {
+      *zoom: 1;
+    }
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    a {
+      background: transparent;
+    }
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+    *,
+    *:after,
+    *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      *behavior: url(https://www.imaginedragonsmusic.com/sites/all/themes/iga-artist-themes/suzuki/behaviors/box-sizing/boxsizing.php);
+    }
+  
+  /*! CSS Used from: https://cache.umusic.com/_sites/_halo/imaginedragons/v3/css/theme-imaginedragons3-a.css ; media=all */
+  @media all {
+    .node.node--event .field[class*="-tickets"] a:before {
+      content: "\e800";
+    }
+    .views-row {
+      max-width: 80rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+    div {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      color: #f7f7f7;
+      text-decoration: none;
+      line-height: inherit;
+      cursor: pointer;
+    }
+    a:focus,
+    a:hover {
+      color: #d4d4d4;
+    }
+    .button {
+      display: inline-block;
+      text-align: center;
+      line-height: 1;
+      cursor: pointer;
+      -webkit-appearance: none;
+      transition: background-color 0.25s ease-out, color 0.25s ease-out;
+      vertical-align: middle;
+      border: 1px solid transparent;
+      border-radius: 0;
+      padding: 0.85em 1em;
+      margin: 0 0 1rem;
+      font-size: 0.9rem;
+      border-width: 1px !important;
+      background-color: #fff;
+      color: #000;
+    }
+    .button:focus,
+    .button:hover {
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+    *,
+    :after,
+    :before {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    .stacked {
+      overflow: hidden;
+      background-image: linear-gradient(to right, #fedfa4, #fdce72);
+      border-top: 1px solid rgba(253, 206, 114, 0.2);
+      padding: 10px 8px;
+    }
+    .stacked span {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 0.1em;
+      line-height: 1em;
+      text-align: center;
+      width: 100%;
+      text-transform: uppercase;
+    }
+    .stacked span.day {
+      font-size: 32px;
+      font-style: italic;
+      color: #fefefe;
+      letter-spacing: -0.02em;
+      line-height: 40px;
+    }
+    .button {
+      font-weight: 700;
+    }
+    .node.node--event .field[class*="-tickets"] a:before {
+      font-family: fontello;
+      font-weight: 400;
+      font-style: normal;
+      position: relative;
+      display: inline-block;
+      padding: 0 0.28125rem;
+      vertical-align: middle;
+      text-indent: 0;
+      color: inherit;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .node.node--event.ds-3col-equal > div {
+      font-family: albertus_mtregular, HelveticaNeue-Light, "Helvetica Neue Light",
+        "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    .node > div,
+    .view[class*="bolero-col"]:not(.packery) > .view-content > .node,
+    .view[class*="bolero-col"]:not(.packery)
+      > .view-content
+      > .views-row:not(.l-grid) {
+      position: relative;
+    }
+    .view[class*="bolero-col"]:not(.packery)
+      > .view-content
+      > .views-row:not(.ds-bolero-feed) {
+      -moz-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+    }
+    .bolero-col--xs-1:not(.no-grid-spacing) .views-row.node {
+      width: calc(100% - 2.04 * 0.5rem);
+    }
+    .clearfix::after,
+    .clearfix::before {
+      content: " ";
+      display: table;
+    }
+    .clearfix::after {
+      clear: both;
+    }
+    .node.ds-3col-equal {
+      width: 100%;
+      max-width: 80rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .node.ds-3col-equal {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -ms-flex-align: center;
+      -moz-align-items: center;
+      align-items: center;
+      padding: 0;
+    }
+    .node.ds-3col-equal > div:not(.contextual-links-wrapper) {
+      width: 33%;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      padding: 0;
+    }
+    .node {
+      width: 100%;
+      float: left;
+      padding: 0;
+      font-weight: 400;
+      position: relative;
+    }
+    .node.node--event .field[class*="-tickets"] a {
+      margin: 0;
+      padding: 0;
+      line-height: 24px;
+      height: 30px;
+      border-width: 3px;
+      background-color: transparent;
+    }
+    .node.node--event .field[class*="-tickets"] a:before {
+      padding: 0 5px 0 0;
+    }
+    .node.node--event.ds-3col-equal {
+      padding: 0;
+      margin: 10px auto;
+      -ms-flex-line-pack: justify;
+      align-content: space-between;
+    }
+    .node.node--event.ds-3col-equal > div {
+      text-transform: uppercase;
+    }
+    .node.node--event.ds-3col-equal > div.group-left {
+      width: 80px;
+    }
+    .node.node--event.ds-3col-equal > div.group-left .stacked {
+      width: 100%;
+      height: 100px;
+      padding-top: 25px;
+    }
+    .node.node--event.ds-3col-equal > div.group-middle {
+      width: calc(100% - 110px);
+      padding: 12px;
+      background: #fff;
+    }
+    .node.node--event.ds-3col-equal > div.group-middle a,
+    .node.node--event.ds-3col-equal > div.group-middle a.button {
+      border: none;
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-size: 15px;
+      line-height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .node.node--event.ds-3col-equal > div.group-middle a.button:focus,
+    .node.node--event.ds-3col-equal > div.group-middle a.button:hover,
+    .node.node--event.ds-3col-equal > div.group-middle a:focus,
+    .node.node--event.ds-3col-equal > div.group-middle a:hover {
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .node.node--event.ds-3col-equal > div.group-middle > div {
+      margin-right: 1.125rem;
+    }
+    .node.node--event.ds-3col-equal > div.group-middle [class*="-tickets"] {
+      float: right;
+    }
+    
+    .node.node--event.ds-3col-equal > div.group-right {
+      width: 30px;
+      background: #aafd72;
+      text-align: center;
+      height: 100px;
+      line-height: 100px;
+      
+    }
+    .node--event .field--name-asf-events-city {
+      font-weight: 700;
+    }
+    .node--event .field--name-asf-events-venue-title a {
+      color: #888;
+    }
+    .stacked {
+      background: #72fdf6;
+      
+    }
+    .stacked span {
+      color: #000 !important;
+    }
+    @media screen and (min-width: 37.5em) {
+      .stacked {
+        float: right;
+        padding: 10px 15px;
+      }
+      .stacked span.day {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+      }
+      .bolero-col--md-2:not(.no-grid-spacing) .views-row.node {
+        width: calc(50% - 2.04 * 0.5rem);
+      }
+    }
+    @media screen and (min-width: 64em) {
+      .bolero-col--lg-1:not(.no-grid-spacing) .views-row.node {
+        width: calc(100% - 2.04 * 0.5rem);
+      }
+      .node.node--event .field[class*="-tickets"] a {
+        line-height: 30px;
+        height: 36px;
+      }
+      .node.node--event.ds-3col-equal
+        > div.group-middle
+        .field--name-asf-events-city,
+      .node.node--event.ds-3col-equal
+        > div.group-middle
+        .field--name-asf-events-venue-title {
+        width: 33%;
+      }
+      .node.node--event.ds-3col-equal > div {
+        height: 100px;
+        line-height: 100px;
+      }
+      .node.node--event.ds-3col-equal > div.group-middle > div {
+        display: inline-block;
+        width: auto;
+        float: left;
+        height: 80px;
+        line-height: 80px;
+      }
+      .node.node--event.ds-3col-equal > div.group-middle > div:last-child {
+        clear: none;
+        font-size: 100%;
+      }
+    }
+    @media screen and (max-width: 63.9375em) {
+      .node.node--event.ds-3col-equal {
+        background: #fff;
+        border: 3px solid #fff;
+      }
+      .node.node--event.ds-3col-equal > div.ds-region {
+        width: 100%;
+      }
+      .node.node--event.ds-3col-equal > div.group-middle {
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        line-height: normal;
+      }
+      .node.node--event.ds-3col-equal
+        > div.group-middle
+        .field--name-asf-events-city,
+      .node.node--event.ds-3col-equal
+        > div.group-middle
+        .field--name-asf-events-venue-title {
+        width: 100%;
+      }
+      .node.node--event.ds-3col-equal > div.group-middle > div {
+        margin: 10px;
+      }
+    }
+    @media print {
+      * {
+        background: 0 0 !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+      }
+      a,
+      a:visited {
+        text-decoration: underline;
+      }
+      a[href]:after {
+        content: " (" attr(href) ")";
+      }
+    }
+  }
+  /*! CSS Used from: https://www.imaginedragonsmusic.com/sites/g/files/aaj14031/f/css/css_u370LZxGYCJ52HjnuAI4iaFxZa3czhHUa0kif0PwUyU.css ; media=all */
+  @media all {
+    .ds-3col-equal > .group-left {
+      width: 33%;
+      float: left;
+    }
+    .ds-3col-equal > .group-middle {
+      width: 34%;
+      float: left;
+    }
+    .ds-3col-equal > .group-right {
+      width: 33%;
+      float: right;
+    }
+  }
+  /*! CSS Used from: Embedded */
+  @media all and (max-width: 601px) {
+    .node.node--event.ds-3col-equal > div.group-right {
+      display: none;
+    }
+  }
+  /*! CSS Used from: Embedded */
+  .node.node--event.ds-3col-equal > div.group-middle [class*="-tickets"] {
+    float: right;
+  }
+  /*! CSS Used fontfaces */
+  @font-face {
+    font-family: fontello;
+    src: url(//cache.umusic.com/_sites/_asf/icons/font/fontello.eot?21517319);
+    src: url(//cache.umusic.com/_sites/_asf/icons/fontello.eot?21517319#iefix)
+        format("embedded-opentype"),
+      url(//cache.umusic.com/_sites/_asf/icons/font/fontello.woff?21517319)
+        format("woff"),
+      url(//cache.umusic.com/_sites/_asf/icons/font/fontello.ttf?21517319)
+        format("truetype"),
+      url(//cache.umusic.com/_sites/_asf/icons/font/fontello.svg?21517319#fontello)
+        format("svg");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: albertus_mtregular;
+    src: url(//cache.umusic.com/_sites/_halo/imaginedragons/v3/fonts/albertusmt-webfont.woff2)
+        format("woff2"),
+      url(//cache.umusic.com/_sites/_halo/imaginedragons/v3/fonts/albertusmt-webfont.woff)
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
