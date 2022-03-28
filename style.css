@@ -1,4 +1,4 @@
-/*! CSS Used from: https://www.imaginedragonsmusic.com/sites/g/files/aaj14031/f/css/css_I7_ydWziIGQzIpIiZViVdzVRJUiejVeb0-v9-nmE7AI.css ; media=all */
+
 body{
     margin-left: 100px;
     background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg);
@@ -30,7 +30,7 @@ body{
       *behavior: url(https://www.imaginedragonsmusic.com/sites/all/themes/iga-artist-themes/suzuki/behaviors/box-sizing/boxsizing.php);
     }
   
-  /*! CSS Used from: https://cache.umusic.com/_sites/_halo/imaginedragons/v3/css/theme-imaginedragons3-a.css ; media=all */
+
   @media all {
     .node.node--event .field[class*="-tickets"] a:before {
       content: "\e800";
@@ -358,7 +358,7 @@ body{
       }
     }
   }
-  /*! CSS Used from: https://www.imaginedragonsmusic.com/sites/g/files/aaj14031/f/css/css_u370LZxGYCJ52HjnuAI4iaFxZa3czhHUa0kif0PwUyU.css ; media=all */
+  
   @media all {
     .ds-3col-equal > .group-left {
       width: 33%;
@@ -373,17 +373,17 @@ body{
       float: right;
     }
   }
-  /*! CSS Used from: Embedded */
+
   @media all and (max-width: 601px) {
     .node.node--event.ds-3col-equal > div.group-right {
       display: none;
     }
   }
-  /*! CSS Used from: Embedded */
+ 
   .node.node--event.ds-3col-equal > div.group-middle [class*="-tickets"] {
     float: right;
   }
-  /*! CSS Used fontfaces */
+
   @font-face {
     font-family: fontello;
     src: url(//cache.umusic.com/_sites/_asf/icons/font/fontello.eot?21517319);
