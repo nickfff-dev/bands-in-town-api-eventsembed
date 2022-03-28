@@ -1,6 +1,7 @@
 /*! CSS Used from: https://www.imaginedragonsmusic.com/sites/g/files/aaj14031/f/css/css_I7_ydWziIGQzIpIiZViVdzVRJUiejVeb0-v9-nmE7AI.css ; media=all */
 body{
     margin-left: 100px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg);
 }
 
 
@@ -300,7 +301,7 @@ body{
       .node.node--event.ds-3col-equal > div.group-middle > div {
         display: inline-block;
         width: auto;
-        float: left;
+       
         height: 80px;
         line-height: 80px;
       }
