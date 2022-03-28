@@ -9,7 +9,7 @@ fetch("https://rest.bandsintown.com/artists/dababy/events/?app_id=")
         console.log(json)
         
         var events = json
-        var kitu = document.getElementById("sufuria")
+        var eventsModal = document.querySelector(".view-content")
 
         for (var i = 0; i < events.length; i++) {
             var event = events[i]
@@ -51,7 +51,7 @@ fetch("https://rest.bandsintown.com/artists/dababy/events/?app_id=")
             </div>
             
             </div>`
-            kitu.innerHTML += eventDiv
+            eventsModal.innerHTML += eventDiv
 
            
         }
