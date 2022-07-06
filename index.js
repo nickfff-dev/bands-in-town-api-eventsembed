@@ -1,14 +1,19 @@
 
 
 
-fetch("https://rest.bandsintown.com/artists/dababy/events/?app_id=2b86392a65721cdf3698bf18d6bfba28")
+document.getElementById("submitter").addEventListener("click",  function () {
+   
+  const inputVal = document.getElementById("search").value
+  fetch(`https://rest.bandsintown.com/artists/${inputVal}/events/?app_id=2b86392a65721cdf3698bf18d6bfba28`)
     .then(function (response) {
         return response.json()
     
     }).then(function (json) {
+    
       console.log(json)
+      
       var bandNameelm = document.querySelector(".bandName")
-      bandNameelm.innerHTML = json[0].lineup[0]
+      bandNameelm.innerHTML = inputVal
         
         var events = json
         var eventsModal = document.querySelector(".view-content")
@@ -62,3 +67,10 @@ fetch("https://rest.bandsintown.com/artists/dababy/events/?app_id=2b86392a65721c
         }
     })
     
+
+    
+
+})
+
+
+
