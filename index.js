@@ -77,9 +77,9 @@ var eventsz = document.querySelector("#toa")
 
 var weka = document.getElementById("search")
 weka.addEventListener("focus", function (){
-weka.value=""
+this.value=""
 
-eventsz.remove()})
+eventsz.innerHTML =""})
 
 
 
