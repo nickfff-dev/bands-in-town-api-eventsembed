@@ -73,5 +73,9 @@ document.getElementById("submitter").addEventListener("click",  function () {
 
 })
 
+var weka = document.getElementById("search")
+weka.addEventListener("focus", ()=>{
+this.value=""})
+
 
 
