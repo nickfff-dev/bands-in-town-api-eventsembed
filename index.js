@@ -62,6 +62,7 @@ document.getElementById("submitter").addEventListener("click",  function () {
             
             </div>`
             eventsModal.innerHTML += eventDiv
+           eventDiv=""
            
 
            
@@ -72,14 +73,9 @@ document.getElementById("submitter").addEventListener("click",  function () {
     
 
 })
-var eventsz = document.querySelector("#toa")
-
-
 var weka = document.getElementById("search")
 weka.addEventListener("focus", function (){
-this.value=""
-
-eventsz.innerHTML =""})
+this.value=""})
 
 
 
