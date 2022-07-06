@@ -62,7 +62,7 @@ document.getElementById("submitter").addEventListener("click",  function () {
             
             </div>`
             eventsModal.innerHTML += eventDiv
-           document.getElementById("search").value=""
+           
 
            
         }
