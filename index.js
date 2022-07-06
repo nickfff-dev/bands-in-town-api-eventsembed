@@ -72,14 +72,14 @@ document.getElementById("submitter").addEventListener("click",  function () {
     
 
 })
-var eventsModal = document.querySelector(".view-content")
+var eventsz = document.querySelector("#toa")
 
 
 var weka = document.getElementById("search")
-weka.addEventListener("focus", ()=>{
+weka.addEventListener("focus", function (){
 weka.value=""
 
-eventsModal.removeChild(eventsModal.children[2])})
+eventsz.remove()})
 
 
 
