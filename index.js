@@ -72,14 +72,14 @@ document.getElementById("submitter").addEventListener("click",  function () {
     
 
 })
-
 var eventsModal = document.querySelector(".view-content")
-eventsModal.innerHTML=""
 
 
 var weka = document.getElementById("search")
 weka.addEventListener("focus", ()=>{
-this.value=""})
+this.value=""
+
+eventsModal.innerHTML=""})
 
 
 
