@@ -3,7 +3,7 @@
 
 document.getElementById("submitter").addEventListener("click",  function () {
    
-  const inputVal = document.getElementById("search").value
+ let inputVal = document.getElementById("search").value
   fetch(`https://rest.bandsintown.com/artists/${inputVal}/events/?app_id=2b86392a65721cdf3698bf18d6bfba28`)
     .then(function (response) {
         return response.json()
