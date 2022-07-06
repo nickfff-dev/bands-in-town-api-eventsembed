@@ -29,7 +29,7 @@ document.getElementById("submitter").addEventListener("click",  function () {
             var country = event.venue.country
             
             var ticketurl = event.offers[0].url
-          var eventDiv = `<div class="ds-3col-equal node node--event views-row views-row-17 views-row-odd view-mode-summary  node--summary node--event--summary clearfix bolero-analytics-processed">
+          var eventDiv = `<div class="ds-3col-equal node node--event views-row views-row-17 views-row-odd view-mode-summary  node--summary node--event--summary clearfix bolero-analytics-processed" id="toa">
 
             <div class="group-left ds-region ">
               <div class="field field--name-asf-events-small-date field--type-ds field--label-hidden stacked">
@@ -77,9 +77,10 @@ var eventsModal = document.querySelector(".view-content")
 
 var weka = document.getElementById("search")
 weka.addEventListener("focus", ()=>{
-this.value=""
+weka.value=""
 
-eventsModal.innerHTML=""})
+eventsModal.removeChild(eventsModal.children[2])})
+
 
 
 
